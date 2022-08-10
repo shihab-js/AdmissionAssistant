@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmbMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|right"
+        app:bmb_boomEnum="boomParabola_3"
+        >
+
+    </com.nightonke.boommenu.BoomMenuButton>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Improve Your Knowledge By Pactice"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/btn_science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science Preparation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <Button
+            android:id="@+id/btn_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Preparation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Button
+            android:id="@+id/btn_business"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business Preparation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Button
+            android:id="@+id/btn_bangla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangla Preparation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <Button
+            android:id="@+id/btn_general_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="General Knowledge Preparation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

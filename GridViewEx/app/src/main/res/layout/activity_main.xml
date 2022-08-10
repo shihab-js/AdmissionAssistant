@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/backgroung"
+    tools:context="shihab.mypro.com.gridviewex.MainActivity">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/menu_main"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center|left"
+        app:fabSize="normal"
+        app:backgroundTint="#e78310"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_main_title"
+        android:layout_width="wrap_content"
+        android:text="START"
+        android:elevation="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000"
+        app:layout_anchor="@id/menu_main"
+        app:layout_anchorGravity="center"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sub_menu_item1"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="400dp"
+        android:layout_marginEnd="200dp"
+        android:visibility="invisible"
+        app:backgroundTint="@android:color/holo_purple"
+        app:fabSize="normal"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_menu_item1_title"
+        android:layout_width="wrap_content"
+        android:text="Catagory"
+        android:elevation="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        android:visibility="invisible"
+        app:layout_anchor="@id/sub_menu_item1"
+        app:layout_anchorGravity="center"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sub_menu_item2"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="100dp"
+        android:visibility="invisible"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:fabSize="normal"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_menu_item2_title"
+        android:layout_width="wrap_content"
+        android:text="Eligibility"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        app:layout_anchor="@id/sub_menu_item2"
+        app:layout_anchorGravity="center"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sub_menu_item3"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="50dp"
+        android:visibility="invisible"
+        app:fabSize="normal"
+        />
+    <TextView
+        android:id="@+id/sub_menu_item3_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Preparation"
+        android:elevation="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        android:visibility="invisible"
+        app:layout_anchor="@id/sub_menu_item3"
+        app:layout_anchorGravity="center"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sub_menu_item4"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:visibility="invisible"
+        app:backgroundTint="@android:color/holo_green_light"
+        app:fabSize="normal"/>
+
+    <TextView
+        android:id="@+id/sub_menu_item4_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Google Mate"
+        android:elevation="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        app:layout_anchor="@id/sub_menu_item4"
+        android:visibility="invisible"
+        app:layout_anchorGravity="center"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sub_menu_item5"
+        android:layout_width="108dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="200dp"
+        android:visibility="invisible"
+        app:backgroundTint="@android:color/holo_green_dark"
+        app:fabSize="normal"/>
+
+    <TextView
+        android:id="@+id/sub_menu_item5_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Forum"
+        android:elevation="6dp"
+        android:visibility="invisible"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#000"
+        app:layout_anchor="@id/sub_menu_item5"
+        app:layout_anchorGravity="center"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

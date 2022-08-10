@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shihab.mypro.com.gridviewex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".FetchAddressIntentService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBgL0C8cIbBeOtolLaAt6k0zVoD77aTngM" />
+
+        //AIzaSyD37KOcvnZN74V5HCk0J-UKP9mOHHqHGis
+
+        //AIzaSyCs5uCMcFkPppZFKWGprJ62Q5ItVV-GTSs
+
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UniversityCatagoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eligibility"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".preparation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".google_mate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".student_forum"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BanglaPreparation" />
+        <activity android:name=".EnglishPreparation" />
+        <activity android:name=".SciencePreparation" />
+        <activity android:name=".GeneralKnowledgePreparation" />
+        <activity android:name=".BusinessPreparation" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".Forum" />
+        <activity android:name=".GeneralVersityDetails" />
+        <activity android:name=".EngineeringVersityDetails"></activity>
+        <activity android:name=".googlematemodel.MapsActivity" />
+    </application>
+
+</manifest>
